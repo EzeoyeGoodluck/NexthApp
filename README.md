@@ -1,38 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js ToDo App
 
-## Getting Started
+This is a simple ToDo application built using Next.js. It allows users to create, edit, delete, and complete tasks.
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Before you can run this app, make sure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js: Download and install Node.js from https://nodejs.org/
+- npm: npm is included with Node.js, so you don't need to install it separately.
+- MongoDB: You'll need a MongoDB database to store task data. Install and configure MongoDB according to your system's instructions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Clone the repository to your local machine:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```bash
+   git clone https://github.com/EzeoyeGoodluck/NexthApp.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the project directory:
+    cd next-todo-app
+   
+4. Install project dependencies:
+    npm install
+   
+5. Create a .env.local file in the project root directory and add your MongoDB connection string as follows:
+  MONGODB_URI=your-mongodb-connection-string
 
-## Learn More
+6. Start the Next.js development server:
+ npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+7. Start the Next.js development server:
+ npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+8. Your app should now be running locally. Open your web browser and access the app at http://localhost:3000.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ ##  Usage
+1.Create a new task by clicking the "Add Task" button and filling out the task details in the modal.
 
-## Deploy on Vercel
+2.Edit a task by clicking the "Edit" button next to the task and making changes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.Mark a task as completed by clicking the checkmark icon.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4.Delete a task by clicking the "Delete" icon.
+   
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1.Fork the repository on GitHub.
+
+2.Create a new branch for your changes.
+
+3.Make your changes and commit them with descriptive commit messages.
+
+4.Push your changes to your fork.
+
+5.Submit a pull request to the main repository.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Thanks to the Next.js and MongoDB communities for providing valuable resources and documentation.
+Happy ToDo-ing!
+
+
+
