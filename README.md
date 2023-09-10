@@ -23,16 +23,13 @@ Before you can run this app, make sure you have the following installed:
 4. Install project dependencies:
     npm install
    
-5. Create a .env.local file in the project root directory and add your MongoDB connection string as follows:
+5. Create a .env file in the project root directory and add your MongoDB connection string as follows:
   MONGODB_URI=your-mongodb-connection-string
 
 6. Start the Next.js development server:
  npm run dev
 
-7. Start the Next.js development server:
- npm run dev
-
-8. Your app should now be running locally. Open your web browser and access the app at http://localhost:3000.
+7. Your app should now be running locally. Open your web browser and access the app at http://localhost:3000.
 
  ##  Usage
 1.Create a new task by clicking the "Add Task" button and filling out the task details in the modal.
